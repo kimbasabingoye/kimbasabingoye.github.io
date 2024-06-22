@@ -16,9 +16,7 @@
 title: Kimba SABI N'GOYE
 email: kimbasabingoye@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Exploring the intersection of cloud computing and data management to innovate solutions for a smarter, more connected world. Join me on a journey of harnessing technology to solve complex challenges and drive impactful change.
 twitter_username: kimbasabingoye
 github_username: kimbasabingoye
 minimal_mistakes_skin: default
@@ -60,11 +58,11 @@ plugins:
 author:
   name: "Kimba SABI N'GOYE"
   avatar: "/assets/images/bio-photo.jpg"
-  bio: "My awesome biography constrained to a sentence or two goes here."
+  bio: "Passionate about leveraging cloud and data technologies to solve complex problems and innovate solutions. Previously, I specialized in telecom software integration as a software engineer at Huawei. Currently, as a Cloud and Data Engineer intern at Renault, I am applying my expertise in data management to drive actionable insights and create meaningful impact by making data readily available for efficient decision-making."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
+  #  - label: "Website"
+  #    icon: "fas fa-fw fa-link"
+  #    url: "https://"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/kimbasabingoye"
@@ -106,7 +104,9 @@ defaults:
       type: portfolio
     values:
       layout: single
-      author_profile: false
+      author_profile: true
+      read_time: true
+      comments: true
       share: true
 
 collections:
