@@ -17,9 +17,11 @@ title: Kimba SABI N'GOYE
 email: kimbasabingoye@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Exploring the intersection of cloud computing and data management to innovate solutions for a smarter, more connected world. Join me on a journey of harnessing technology to solve complex challenges and drive impactful change.
+url: https://kimbasabingoye.github.io/
+repository: "kimbasabingoye/kimbasabingoye.github.io"
 twitter_username: kimbasabingoye
 github_username: kimbasabingoye
-minimal_mistakes_skin: default
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 search: true
 
 # Build settings
@@ -58,7 +60,9 @@ plugins:
 author:
   name: "Kimba SABI N'GOYE"
   avatar: "/assets/images/bio-photo.jpg"
-  bio: "Cloud D& Dta Engineer"
+  bio: >-
+    A driven software engineer with a knack for crafting powerful data systems, turning complex problems into seamless, scalable solutions.
+  location : "Paris, France"
   links:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
@@ -111,7 +115,3 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-comments:
-  provider: "disqus"
-  disqus:
-    shortname: "kimbasabingoye"

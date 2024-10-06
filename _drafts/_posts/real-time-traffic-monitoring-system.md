@@ -2,7 +2,6 @@
 title: "Real Time Traffic Monitoring and Analysis System"
 excerpt: "A GCP-based pipeline for collecting, processing, and analyzing real-time traffic data to reduce highway congestion."
 header:
-  image: /assets/images/unsplash-image-1.jpg
   teaser: assets/images/real-time-traffic-monitoring-system.jpeg
 sidebar:
   - title: "Date"
@@ -18,6 +17,7 @@ gallery:
     image_path: assets/images/unsplash-gallery-image-3-th.jpg
     alt: "placeholder image 3"
 ---
+(Post writtig ongoing)
 
 ### Real-Time Traffic Monitoring and Analysis System
 
@@ -46,8 +46,6 @@ The system will utilize various data sources to provide a comprehensive view of 
 5. **Historical Traffic Data:** Archived data on traffic patterns, vehicle counts, and congestion trends from previous periods.
 
 ### Complications and Challenges
-
-To make the project more challenging and to reflect real-world scenarios, the following complications are introduced:
 
 1. **Heterogeneous Data Formats:**
    - Different car brands and toll operators use various data formats. For example, some provide data in JSON, others in XML, CSV, or proprietary binary formats.
