@@ -54,9 +54,10 @@ comments:
 github: [metadata]
 
 analytics:
-  provider: "google"
+  provider: "google-gtag"
   google:
     tracking_id: "G-0S5FW31NN6"
+    anonymize_ip: false # default
 
 footer:
   links:
