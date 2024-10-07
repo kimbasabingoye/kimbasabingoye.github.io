@@ -1,68 +1,42 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# Configs for pwills.com
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: Kimba SABI N'GOYE
 email: kimbasabingoye@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Exploring the intersection of cloud computing and data management to innovate solutions for a smarter, more connected world. Join me on a journey of harnessing technology to solve complex challenges and drive impactful change.
+name: "Kimba SABI N'GOYE"
 url: https://kimbasabingoye.github.io/
 repository: "kimbasabingoye/kimbasabingoye.github.io"
 twitter_username: kimbasabingoye
 github_username: kimbasabingoye
-minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-search: true
-
-# Build settings
-markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
-# Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: Europe/Paris # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
+  - assets
+  - index.html
+exclude:
+  - TODO.md
+  - README.md
+  - "*.org"
+  - "*ltximg*"
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-# Plugins (previously gems:)
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
   - jekyll-feed
-  - jemoji
+  - jekyll-remote-theme
   - jekyll-include-cache
 
+# Build settings
+markdown: kramdown
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "dirt"
+# Outputting
+permalink: /:categories/:title/
+timezone: Europe/Paris
+
+# settings for author profile
 author:
   name: "Kimba SABI N'GOYE"
   avatar: "/assets/images/bio-photo.jpg"
-  bio: >-
-    A driven software engineer with a knack for crafting powerful data systems, turning complex problems into seamless, scalable solutions.
-  location : "Paris, France"
+  bio: "A driven software engineer with a knack for crafting robust data systems, transforming complex challenges into seamless, scalable solutions."
+  location: "Paris, France"
   links:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
@@ -70,6 +44,17 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/kimbasabingoye"
+
+# # comments by disqus
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "kimbasabingoye"
+
+analytics:
+  provider: "google"
+  google:
+    tracking_id: "G-0S5FW31NN6"
 
 footer:
   links:
@@ -80,38 +65,42 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/kimbasabingoye"
 
+# pagination for blog page
+paginate: 10 # number of posts to show
+paginate_path: /page:num/
+
+# default YAML front matter
 defaults:
-  # _posts
+  # all
+  - scope:
+      path: ""
+    values:
+      layout: single
+      mathjax: true
+      author_profile: true
+      class: wide
+      title: " "
+      title_separator: "|"
+  # posts
   - scope:
       path: ""
       type: posts
     values:
-      layout: single
-      author_profile: true
-      read_time: true
+      toc: true
+      toc_label: "Contents"
+      read_time: false
       comments: true
-      share: true
-      related: true
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-  # _portfolio
+  # portfolio
   - scope:
       path: ""
       type: portfolio
     values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
+      author_profile: false
+      excerpt: ""
+      sidebar:
+        nav: "portfolio"
 
+# collections
 collections:
   portfolio:
     output: true
-    permalink: /:collection/:path/
-

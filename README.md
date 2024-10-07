@@ -1,27 +1,26 @@
-# Minimal Mistakes remote theme starter
+# https://kimbasabingoye.github.io/
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+Source for [https://kimbasabingoye.github.io/][4], hosted on GitHub Pages. Functions as an online
+resume/portfolio, as well as a place for me to rant & rave about technology. 
 
-Contains basic configuration to get you a site with:
+To build the site locally, do
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
+	git clone https://github.com/kimbasabingoye/kimbasabingoye.github.io/.git
+	cd kimbasabingoye.github.io
+    gem install bundler # to get the dependency manager that jekyll uses
+	bundle update # to make sure all ruby gems are up to date
+	bundle exec jekyll serve
+	
+Then navigate to `localhost:4000` in your browser to view the page.
 
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
 
----
+Site is built in jekyll on top of [Minimal Mistakes][1]. Uses images from
+[Unsplash][2]. If you have questions, drop me a line at [kimbasabingoye@gmail.com](mailto:kimbasabingoye@gmail.com).
 
-## Troubleshooting
+[1]: https://github.com/mmistakes/minimal-mistakes
 
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
+[2]: https://unsplash.com/
 
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+[4]: https://kimbasabingoye.github.io/
+
+

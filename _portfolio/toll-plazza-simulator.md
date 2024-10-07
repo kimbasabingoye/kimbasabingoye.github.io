@@ -1,11 +1,14 @@
 ---
-title: "Toll Plaza Simulation Project"
+title: "Toll Plaza Simulator"
 excerpt: "The Toll Plaza Simulation System efficiently simulates the flow of vehicles through multiple toll booths, utilizing threading for concurrent processing."
 header:
   teaser: assets/images/toll-plaza.avif
-sidebar:
-  - title: "Date"
-    text: "May 2024"
+#  overlay_image: AdobeStock_359258980_Preview.jpeg
+  caption: "Photo credit: [**Marcus Spiske**](https://unsplash.com)"
+permalink: /portfolio/toll-plaza-simulator/
+date: 2018-03-16
+toc: true
+toc_label: "Contents"
 ---
 
 
