@@ -19,7 +19,8 @@ feature_row:
 # Portfolio
 
 Here you'll find summaries of the major projects I've done since September 2024.
-Update is on going to include older projects.
+
+**Update is on going to include older projects.**
 
 <!-- These projects span everything
 from mathematical physics to machine learning, from finance to advertising, from
