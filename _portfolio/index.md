@@ -1,5 +1,6 @@
 ---
 classes: wide
+title: "Portfolio"
 header:
   overlay_image: /assets/images/tools.jpg
   caption: "Photo credit: [**Ricky Kharawala**](https://unsplash.com)"

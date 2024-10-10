@@ -1,5 +1,5 @@
 ---
-title: "Toll Plaza Simulator"
+title: "Toll Plaza Simulator Project"
 excerpt: "The Toll Plaza Simulator efficiently simulates the flow of vehicles through multiple toll booths, utilizing threading for concurrent processing."
 header:
   teaser: assets/images/toll-plaza.avif
