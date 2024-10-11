@@ -1,9 +1,10 @@
 ---
 author_profile: false
+title: Kimba SABI N'GOYE
 header:
-  overlay_image: /assets/images/utah.jpg
-  caption: "Photo Credit: **Kathleen Finlinson**"
+  overlay_image: /assets/images/dassa.jpeg
 permalink: /about/
+excerpt: "Welcome to my blog!"
 gallery:
   - url: /assets/images/cames.jpg
     image_path: /assets/images/cames.jpg
