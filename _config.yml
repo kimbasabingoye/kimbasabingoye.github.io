@@ -34,7 +34,7 @@ timezone: Europe/Paris
 # settings for author profile
 author:
   name: "Kimba SABI N'GOYE"
-  avatar: "/assets/images/bio-photo.jpg"
+  avatar: "/assets/images/bio-photo.png"
   bio: "Result-oriented Software Development Engineer with a strong interest in building scalable data systems and applications."
   location: "Paris, France"
   links:
