@@ -10,6 +10,10 @@ gallery:
     image_path: /assets/images/cames.jpg
     alt: "CAMES"
     title: "CAMES Olympiad"
+  - url: /assets/images/cames.jpg
+    image_path: /assets/images/renault.jpg
+    alt: "Renault Internship Last Day"
+    title: "Renault Internship Last Day"
   - url: /assets/images/dstn.jpg
     image_path: /assets/images/dstn.jpg
     alt: "DSTN Hackathon"
@@ -18,14 +22,22 @@ gallery:
     image_path: /assets/images/icpc.jpg
     alt: "Regional ACPC"
     title: "Regional ACPC"
-  - url: /assets/images/kimba_playig_football.jpg
-    image_path: /assets/images/kimba_playig_football.jpg
-    alt: "Kimba Playing football"
-    title: "Kimba Playing football"
   - url: /assets/images/dstn2.jpg
     image_path: /assets/images/dstn2.jpg
     alt: "DSTN Participation"
     title: "DSTN Participation"
+  - url: /assets/images/kimba_playig_football.jpg
+    image_path: /assets/images/kimba_playig_football.jpg
+    alt: "Kimba Playing football"
+    title: "Kimba Playing football"
+  - url: /assets/images/cames.jpg
+    image_path: /assets/images/ouc3.jpg
+    alt: "Kimba at CAMES Olympiad"
+    title: "Kimba at CAMES Olympiad"
+  - url: /assets/images/rber.jpg
+    image_path: /assets/images/rber.jpg
+    alt: "Kimba Speaking during a meeting with Benin's ICT minister in 2021"
+    title: "Kimba Speaking during a meeting with Benin's ICT minister in 2021"
 classes: wide
 ---
 
