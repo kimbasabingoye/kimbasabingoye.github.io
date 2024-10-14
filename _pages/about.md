@@ -31,7 +31,7 @@ classes: wide
 
 # About Me
 
-Welcome to my blog! My name is **Kimba SABI N'GOYE**, and I am a passionate **Software Development Engineer** with a strong focus on building scalable systems that power data-driven applications.
+My name is **Kimba SABI N'GOYE**, and I am a passionate **Software Development Engineer** with a strong focus on building scalable systems that power data-driven applications.
 
 <img src="{{ "/assets/images/imsp-valley.jpg" | absolute_url }}" width="50%" hspace="20" align="right">
 
