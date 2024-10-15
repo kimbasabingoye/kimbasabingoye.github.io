@@ -1,6 +1,6 @@
 ---
 title: "Toll Plaza Simulator Project"
-excerpt: "The Toll Plaza Simulator efficiently simulates the flow of vehicles through multiple toll booths, utilizing threading for concurrent processing."
+excerpt: ""
 header:
   teaser: assets/images/toll-plaza.avif
   overlay_image: assets/images/unsplash-image-11.jpg
@@ -16,9 +16,7 @@ toc_label: "Contents"
 
 This project simulates a dynamic toll plaza management system that handles vehicle traffic efficiently through various toll booths. The system is designed to demonstrate real-time traffic management and processing of vehicles.
 
-[Code Repository](https://github.com/kimbasabingoye/toll-plaza-simulator)
-
-### Key Features
+## Key Features
 
 - **Dynamic Toll Booth Management:** Simulates multiple toll booths within each plaza, allowing vehicles to be assigned based on different strategies (e.g., shortest queue, random selection).
 - **Vehicle Generation:** Continuously generates vehicles to simulate real-world traffic flow.
@@ -55,3 +53,6 @@ This toll plaza simulation project not only provides an interesting way to under
 - **Graphical User Interface:** Develop a user-friendly interface to visualize vehicle processing and plaza status.
 - **Advanced Vehicle Assignment Strategies:** Implement machine learning algorithms to optimize vehicle assignments based on historical data.
 - **Integration with Real-Time Data:** Connect the system with real-world traffic data for enhanced simulation accuracy.
+
+## **GitHub Repository**
+Explore the complete codebase and documentation for the simulator on GitHub: [Toll Plaza Simulator](https://github.com/kimbasabingoye/toll-plaza-simulator)

@@ -15,10 +15,10 @@ main:
 portfolio:
   - title: "Projects"
     children:
+      - title: "UEFA Champions League Chatbot"
+        url: /portfolio/chatbot-uefa-champions-league/
       - title: "Toll Plaza Simulator"
         url: /portfolio/toll-plaza-simulator/
-  #     - title: "Anomaly Detection in Social Networks"
-  #       url: /portfolio/social-networks/
   #     - title: "NetComp: Python Network Comparison"
   #       url: /portfolio/netcomp/
   #     - title: "Automatic Genre Classification"

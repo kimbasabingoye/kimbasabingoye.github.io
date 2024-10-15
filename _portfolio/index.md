@@ -5,9 +5,16 @@ header:
   overlay_image: /assets/images/code.jpg
   caption: "Photo credit: [**Ricky Kharawala**](https://unsplash.com)"
 permalink: /portfolio/index.html
-date: 2024-10-07
+date: 2024-10-15
 
 feature_row:
+  - image_path: assets/images/football_bot.jpeg
+    alt: "Champions League Chatbot"
+    title: "Champions League Chatbot"
+    excerpt: "The UEFA Champions League Chatbot efficiently provides personalized insights and statistics to football fans by RAG."
+    url: /portfolio/chatbot-uefa-champions-league/
+    btn_label: "Read More"
+    btn_class: "btn--primary"
   - image_path: assets/images/toll-plaza.avif
     alt: "Toll Plaza"
     title: "Toll Plaza Simulator"
